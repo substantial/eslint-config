@@ -5,7 +5,19 @@ A base, hopefully non-controversial eslint config for our projects.
 ## Installation
 
 ```sh
-$ yarn add --dev @substantial/eslint-config
+$ yarn add --dev @substantial/eslint-config eslint-config-prettier eslint-plugin-prettier
+```
+
+For jest also run:
+
+```sh
+$ yarn add --dev eslint-plugin-jest
+```
+
+For react also run:
+
+```sh
+$ yarn add --dev eslint-config-react-app @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-eslint eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 ## Usage
