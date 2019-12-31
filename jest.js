@@ -1,15 +1,9 @@
 module.exports = {
-  overrides: [
-    {
-      files: ["**/*.test.[jt]s?(x)"],
+  plugins: ["jest"],
 
-      plugins: ["jest"],
+  env: {
+    jest: true,
+  },
 
-      env: {
-        jest: true,
-      },
-
-      extends: ["plugin:jest/recommended"],
-    },
-  ],
+  extends: ["plugin:jest/recommended"],
 }

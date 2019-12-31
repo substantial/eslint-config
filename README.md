@@ -30,7 +30,15 @@ your project:
   "extends": [
     "@substantial/eslint-config",
     "@substantial/eslint-config/react",
-    "@substantial/eslint-config/jest"
+  ],
+
+  "overrides": [
+    {
+      "files": ["**/*.test.[jt]s?(x)"],
+      "extends": [
+          "@substantial/eslint-config/jest"
+      ]
+    }
   ]
 }
 ```
@@ -47,6 +55,7 @@ Uses [eslint-config-react-app][]
 
 ### @substantial/eslint-config/jest
 
-Assumes tests are in files ending in `.test.js` (or `jsx`, `ts`, `tsx`).
+The usage guide assumes tests are in files ending in `.test.js` (or `jsx`, `ts`,
+`tsx`), but you may change the files override to anything you like.
 
 [eslint-config-react-app]: https://www.npmjs.com/package/eslint-config-react-app
