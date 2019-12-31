@@ -1,5 +1,7 @@
 # @substantial/eslint-config
 
+[![CircleCI](https://circleci.com/gh/substantial/eslint-config.svg?style=svg)](https://circleci.com/gh/substantial/eslint-config)
+
 A base, hopefully non-controversial eslint config for our projects.
 
 ## Installation
